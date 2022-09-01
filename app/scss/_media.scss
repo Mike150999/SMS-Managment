@@ -1,0 +1,51 @@
+@media screen and (max-width: 880px){
+	.notifications{
+		&__group{
+			flex-wrap: wrap;
+		}
+		&__toggle-top{
+			margin-top: 30px;
+		}
+	}
+
+.bisnes-bottom{
+	margin-bottom: 0px;
+}
+
+}
+
+@media screen and (max-width: 725px){
+	.general__toggle-top{
+		margin-top: 30px;
+	}
+	.header__title{
+		margin-top: 0;
+	}
+
+	}
+
+	@media screen and (max-width: 594px){
+		.header__title{
+			font-size: 45px;
+		}
+		.header__text{
+			font-size: 19px;
+		}
+		}
+
+	@media screen and (max-width: 470px){
+		.finally__buttons-save{
+			margin-top: 15px;
+		}
+		.toggle{
+			max-width: 400px;
+		}
+	
+		}
+		@media screen and (max-width: 400px){
+
+			.toggle{
+				max-width: 350px;
+			}
+		
+			}

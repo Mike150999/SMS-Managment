@@ -1,0 +1,65 @@
+@import 'fonts';
+
+html,
+body {
+	height: 100%;
+	font-family: 'Roboto', sans-serif;
+}
+select, button{
+	cursor: pointer;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	min-height: 100%;
+}
+
+.main {
+	flex: 1 0 auto;
+}
+
+.container{
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.title{
+font-size: 16px;
+margin-bottom: 30px;
+}
+
+.text{
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 0rem;
+	padding-right: 10px;
+}
+
+.label{
+	max-width: 350px;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+.toggle{
+	display: flex;
+	width: 470px;
+}
+
+.select{
+	width: 225px;
+	border-radius: 5px;
+	border-color: #858585;
+	color: #858585;
+	font-size: 14px;
+	height: 40px;
+	padding-left: 10px;
+}
+
+.bisnes-bottom{
+	margin-bottom: -15px;
+	margin-top: 30px;
+}
+

@@ -1,0 +1,154 @@
+html{
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before{
+  box-sizing: inherit;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+// .aside{
+// 	display: flex;
+// 	flex-direction: column;
+// 	margin-bottom: 100px;
+// 	width: 100%;
+// 	max-width: 600px;
+// }
+
+
+// <aside class="aside">
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// 	 <p class="label">4 полезных и емких письма в течение месяца</p>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// 	 <p class="label">Бесплатные вебинары проходят 1 раз в 2 недели. 
+// 		Вы будете получать 2 письма с напоминанием 
+// 		о предстоящем вебинаре</p>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+	 
+// 	<select class="select">
+// 		<option class="option" value="1">Мгновенно</option>
+// 		<option class="option" value="2">1 раз в день</option>
+// 		<option class="option" value="3">Отключить</option>
+// 	</select>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// 	 <p class="label">Поисковый агент присылает 1 письмо 
+// 		в неделю и только при условии, что найдены 
+// 		новые площадки
+// 		</p>
+// </div>
+// <label class="switch">
+// 	<input class="switch__toggle"  type="checkbox">
+// 	<span class="slider round"></span>
+//  </label>
+//  <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// 	 <select class="select">
+// 		<option class="option" value="1">Мгновенно</option>
+// 		<option class="option" value="2">1 раз в день</option>
+// 		<option class="option" value="3">Отключить</option>
+// 	</select>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// 	 <select class="select">
+// 		<option class="option" value="1">Мгновенно</option>
+// 		<option class="option" value="2">1 раз в день</option>
+// 		<option class="option" value="3">Отключить</option>
+// 	</select>
+// </div>
+// <div class="toggle">
+// 	<label class="switch">
+// 		<input class="switch__toggle"  type="checkbox">
+// 		<span class="slider round"></span>
+// 	 </label>
+// </div>
+// </aside>
